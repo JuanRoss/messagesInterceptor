@@ -9,7 +9,7 @@ package com.juanros.messagesinterceptor.parser;
  *
  * @author juan
  */
-public class NetworkProtocol {
+public class NetworkProtocol implements Protocol {
     private String originIp;
     private String destinationIp;
     private byte[] body;

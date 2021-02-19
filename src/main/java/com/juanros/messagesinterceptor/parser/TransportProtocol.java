@@ -9,7 +9,7 @@ package com.juanros.messagesinterceptor.parser;
  *
  * @author juan
  */
-public class TransportProtocol {
+public class TransportProtocol implements Protocol {
     private String originPort;
     private String destinationPort;
     private byte[] body;

@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author juan
  */
-public class ApplicationProtocol {
+public class ApplicationProtocol implements Protocol {
     private List<Op> ops;
 
     public List<Op> getOps() {

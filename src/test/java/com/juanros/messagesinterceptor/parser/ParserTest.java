@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.datumize.datumizeparser.parser;
+package com.juanros.messagesinterceptor.parser;
 
 import com.juanros.messagesinterceptor.parser.Parser;
 import com.juanros.messagesinterceptor.parser.UnansweredRequest;
