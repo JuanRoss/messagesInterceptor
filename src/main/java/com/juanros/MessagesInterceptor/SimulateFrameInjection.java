@@ -5,8 +5,8 @@
  */
 package com.juanros.MessagesInterceptor;
 
-import com.juanros.messagesinterceptor.parser.Utils;
-import com.juanros.messagesinterceptor.udpsocketlistener.UDPClient;
+import com.juanros.MessagesInterceptor.parser.Utils;
+import com.juanros.MessagesInterceptor.udpsocket.UDPClient;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

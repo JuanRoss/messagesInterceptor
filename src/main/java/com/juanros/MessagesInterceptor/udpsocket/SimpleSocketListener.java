@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.juanros.messagesinterceptor.udpsocketlistener;
+package com.juanros.MessagesInterceptor.udpsocket;
 
-import com.juanros.messagesinterceptor.model.Comm;
-import com.juanros.messagesinterceptor.parser.Parser;
-import com.juanros.messagesinterceptor.parser.UnansweredRequest;
-import com.juanros.messagesinterceptor.parser.Utils;
+import com.juanros.MessagesInterceptor.model.Comm;
+import com.juanros.MessagesInterceptor.parser.Parser;
+import com.juanros.MessagesInterceptor.unansweredrequest.UnansweredRequest;
+import com.juanros.MessagesInterceptor.parser.Utils;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.SocketException;

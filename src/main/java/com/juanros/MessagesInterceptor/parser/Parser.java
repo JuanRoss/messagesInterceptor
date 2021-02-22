@@ -3,11 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.juanros.messagesinterceptor.parser;
+package com.juanros.MessagesInterceptor.parser;
 
-import com.juanros.messagesinterceptor.model.Comm;
-import com.juanros.messagesinterceptor.model.Msg;
-import com.juanros.messagesinterceptor.model.Op;
+import com.juanros.MessagesInterceptor.protocol.TransportProtocol;
+import com.juanros.MessagesInterceptor.protocol.NetworkProtocol;
+import com.juanros.MessagesInterceptor.protocol.ApplicationProtocol;
+import com.juanros.MessagesInterceptor.model.Comm;
+import com.juanros.MessagesInterceptor.model.Msg;
+import com.juanros.MessagesInterceptor.model.Op;
+import com.juanros.MessagesInterceptor.unansweredrequest.UnansweredRequest;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

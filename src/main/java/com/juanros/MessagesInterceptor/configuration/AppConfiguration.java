@@ -5,12 +5,11 @@
  */
 package com.juanros.MessagesInterceptor.configuration;
 
-import com.juanros.messagesinterceptor.parser.Parser;
-import com.juanros.messagesinterceptor.parser.UnansweredRequest;
-import com.juanros.messagesinterceptor.udpsocketlistener.SimpleSocketListener;
+import com.juanros.MessagesInterceptor.parser.Parser;
+import com.juanros.MessagesInterceptor.unansweredrequest.UnansweredRequest;
+import com.juanros.MessagesInterceptor.udpsocket.SimpleSocketListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 
 /**
  *

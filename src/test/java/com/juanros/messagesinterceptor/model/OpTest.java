@@ -5,7 +5,7 @@
  */
 package com.juanros.messagesinterceptor.model;
 
-import com.juanros.messagesinterceptor.model.Op;
+import com.juanros.MessagesInterceptor.model.Op;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;

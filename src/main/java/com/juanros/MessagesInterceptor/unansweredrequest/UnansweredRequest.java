@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.juanros.messagesinterceptor.parser;
+package com.juanros.MessagesInterceptor.unansweredrequest;
 
-import com.juanros.messagesinterceptor.model.Msg;
+import com.juanros.MessagesInterceptor.model.Msg;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  *
  * @author Juan Ros Pina
  */
-@Component
+
 public class UnansweredRequest {
     private List<Msg> requests;
     private static final Object lock = new Object();

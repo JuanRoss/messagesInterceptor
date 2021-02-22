@@ -5,9 +5,9 @@
  */
 package com.juanros.messagesinterceptor.parser;
 
-import com.juanros.messagesinterceptor.parser.UnansweredRequest;
-import com.juanros.messagesinterceptor.model.Msg;
-import com.juanros.messagesinterceptor.model.Op;
+import com.juanros.MessagesInterceptor.unansweredrequest.UnansweredRequest;
+import com.juanros.MessagesInterceptor.model.Msg;
+import com.juanros.MessagesInterceptor.model.Op;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.AfterClass;

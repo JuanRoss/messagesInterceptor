@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.juanros.messagesinterceptor.model;
+package com.juanros.MessagesInterceptor.model;
 
 import java.util.List;
 import java.util.Objects;

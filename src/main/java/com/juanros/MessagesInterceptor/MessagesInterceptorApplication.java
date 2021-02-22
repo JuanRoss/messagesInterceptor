@@ -1,10 +1,6 @@
 package com.juanros.MessagesInterceptor;
 
-import com.juanros.messagesinterceptor.parser.Utils;
-import com.juanros.messagesinterceptor.udpsocketlistener.SimpleSocketListener;
-import java.net.SocketException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import com.juanros.MessagesInterceptor.udpsocket.SimpleSocketListener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

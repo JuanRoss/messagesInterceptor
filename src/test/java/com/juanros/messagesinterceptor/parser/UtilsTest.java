@@ -5,7 +5,7 @@
  */
 package com.juanros.messagesinterceptor.parser;
 
-import com.juanros.messagesinterceptor.parser.Utils;
+import com.juanros.MessagesInterceptor.parser.Utils;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
