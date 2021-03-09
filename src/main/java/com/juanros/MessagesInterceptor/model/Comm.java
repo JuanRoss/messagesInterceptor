@@ -5,6 +5,7 @@
  */
 package com.juanros.MessagesInterceptor.model;
 
+import com.juanros.MessagesInterceptor.model.entities.Communication;
 import java.util.Objects;
 
 /**
@@ -37,6 +38,16 @@ public class Comm {
 
     public void setRs(Msg rs) {
         this.rs = rs;
+    }
+    
+    public Communication toCommunicationEntity() {
+        Communication c = new Communication();
+        if(rq != null)
+            c.setRequest(rq);
+        if(rs != null)
+            c.setResponse(rs);
+        
+        return c;
     }
     
     @Override

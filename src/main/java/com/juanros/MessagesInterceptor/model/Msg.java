@@ -5,6 +5,7 @@
  */
 package com.juanros.MessagesInterceptor.model;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -94,4 +95,6 @@ public class Msg {
     public void setOps(List<Op> ops) {
         this.ops = ops;
     }
+
+
 }
